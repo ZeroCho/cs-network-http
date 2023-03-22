@@ -4,6 +4,8 @@
 ## TCP/UDP
 
 ### 3-way 핸드쉐이크
+![image](https://user-images.githubusercontent.com/10962668/226827478-c2d67213-6ee8-4e44-9ee8-6742b1d3616d.png)
+
 
 ## IP
 
@@ -46,6 +48,7 @@ Server: Nginx
 ```
 
 # HTTPS/SSL/TLS
+![image](https://user-images.githubusercontent.com/10962668/226827952-2f7d0737-85b1-47bc-9a58-5c6d4a60a94d.png)
 
 
 # HTTP2
