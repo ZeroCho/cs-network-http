@@ -14,6 +14,9 @@
 # DNS
 ![image](https://user-images.githubusercontent.com/10962668/226812033-6bbefc13-7d60-4802-9b84-373af4ead7b9.png)
 
+# Proxy, Gateway
+리버스프록시
+
 # HTTP
 
 ## Request
@@ -46,6 +49,23 @@ Server: Nginx
 (response body)
 (connection closed)
 ```
+
+## Method/Status
+
+### GET, HEAD, OPTIONS, TRACE
+idempotent
+
+### POST, PUT, PATCH, DELETE
+
+### Cache
+Cache-Control: no-store, no-cache, must-revalidate...
+
+### Cookie
+Set-Cookie:
+
+Cookie:
+
+SameSite: Lax; None;
 
 # HTTPS/SSL/TLS
 ![image](https://user-images.githubusercontent.com/10962668/226827952-2f7d0737-85b1-47bc-9a58-5c6d4a60a94d.png)
