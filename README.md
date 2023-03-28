@@ -11,11 +11,13 @@
 
 ## Ethernet/Wifi(MAC Address)
 
+## L4, L7 Switch
+
 # DNS
 ![image](https://user-images.githubusercontent.com/10962668/226812033-6bbefc13-7d60-4802-9b84-373af4ead7b9.png)
 
 # Proxy, Gateway
-리버스프록시
+리버스프록시(https, 인증)
 
 # HTTP
 
@@ -33,9 +35,18 @@ User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5)
 Accept: */*
 Connection: close
 ```
+
+지속 커넥션, 병렬 커넥션(pipelining)
+
 ### Header
+Accept 시리즈
+
+Content 시리즈
+
+Host
 
 ### Body
+Encoding: gzip
 
 ## Response
 ```
