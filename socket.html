@@ -1,0 +1,23 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>웹소켓 실습</title>
+</head>
+<body>
+<script>
+    const ws = new WebSocket('ws://localhost:8981');
+    ws.onerror = console.error;
+
+    ws.onopen = function open() {
+        ws.send('연결 성공');
+        ws.send('클라이언트에서 서버로');
+    };
+    ws.onmessage = (e) => {
+        console.log(e);
+    };
+</script>
+</body>
+</html>

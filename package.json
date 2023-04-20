@@ -1,0 +1,23 @@
+{
+  "name": "cs-network-http",
+  "version": "1.0.0",
+  "description": "![image](https://user-images.githubusercontent.com/10962668/226811511-a828bc0b-389f-491e-abc3-562b93b58ee7.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroCho/cs-network-http.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeroCho/cs-network-http/issues"
+  },
+  "homepage": "https://github.com/ZeroCho/cs-network-http#readme",
+  "dependencies": {
+    "ws": "^8.13.0"
+  }
+}
