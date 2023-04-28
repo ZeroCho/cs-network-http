@@ -7,9 +7,11 @@
 1. ![img.png](img.png)
 
 Download ZIP 클릭
+
 2. ![img_1.png](img_1.png)
 
 압축 풀고 폴더 경로 복사
+
 3. ![img_2.png](img_2.png)
 
 터미널을 켜서 **cd 경로** 입력해서 그 폴더로 이동.
