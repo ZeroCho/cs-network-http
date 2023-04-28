@@ -1,6 +1,7 @@
 # node.js 설치
 1. [링크](https://nodejs.org)
 2. LTS 버전 다운로드
+3. 다음만 계속 눌러서 설치하면 됩니다.
 
 # GitHub 소스코드 다운로드 
 1. ![img.png](img.png)
